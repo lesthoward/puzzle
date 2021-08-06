@@ -100,10 +100,10 @@ function gameDetails () {
     })
 
     // Si las respuestas están en el orden del contador, salta una alerta.
+    mostrarMovimientos()
     arrRespuesta ? alert('Te felicito, has completado el juego correctamente.') : null
 
 
-    mostrarMovimientos()
 }
 
 // Boton para desordenar el arreglo.
